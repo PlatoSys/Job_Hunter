@@ -1,0 +1,12 @@
+{
+    "name": "thinkpad/works",
+    "authors": [
+        {
+            "name": "PlatoSys",
+            "email": "platoniinjgia@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}

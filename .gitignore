@@ -1,0 +1,9 @@
+.idea
+/vendor/
+/controllers/database.php
+views/Images/img_avatar.png
+/views/Images
+config.php
+/views/Events
+/views/homework/
+/views/google-api-php-client-2.5.0/
