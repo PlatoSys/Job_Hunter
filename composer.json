@@ -6,7 +6,12 @@
             "email": "platoniinjgia@gmail.com"
         }
     ],
-    "require": {
+  "autoload": {
+    "psr-4": {
+      "app\\": "."
+    }
+  },
+  "require": {
       "ext-pdo": "*",
       "ext-http": "*",
       "ext-json": "*",
