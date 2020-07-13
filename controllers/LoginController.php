@@ -12,10 +12,12 @@ class LoginController
      * @param Router $router
      * @return false|string
      */
-    public function login(IRequest $request, Router $router)
+    public function Login(IRequest $request, Router $router)
     {
-
-            return $router->renderView('login', );
+//        header('Location: http://localhost:8080/vacancy');
+//        exit();
+        $params = '';
+            return $router->renderView('login');
     }
 
 

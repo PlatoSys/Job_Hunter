@@ -18,6 +18,7 @@ class vacancyController
 
 
         $db = new database();
+        $db->removePastVacancies();
         $db = $db->getVacancies();
 
         $params = [
