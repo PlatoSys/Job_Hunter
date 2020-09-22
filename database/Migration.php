@@ -32,14 +32,9 @@ use PDOException;
         $conn->exec($sql);
 
 
-        $sql = "CREATE TABLE Students (
+        $sql = "CREATE TABLE Companies (
     id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-    firstname VARCHAR(255) NOT NULL,
-    lastname VARCHAR(255) NOT NULL,
-    birthdate date,
-    email VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    status VARCHAR(255) NOT NULL  
+    CompanyName VARCHAR(255) NOT NULL
 )";
         $conn->exec($sql);
 
@@ -54,7 +49,7 @@ use PDOException;
         $conn->exec($sql);
 
 
-        $sql = "create table works.Vacancies   (
+        $sql = "create table Vacancies   (
 	VacanyID int,
     VacancyName nvarchar(255),
     VacancyDetails nvarchar(255),
@@ -63,7 +58,8 @@ use PDOException;
     CompanyName nvarchar(255),
     Salary float,
     City nvarchar(255),
-    Label nvarchar(255)
+    Label nvarchar(255),
+    Status bool
     );";
 
         $conn->exec($sql);
